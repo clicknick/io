@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div style="text-align: right; background-color: rgb(245, 241, 241);">
+            <a href="index.html">Main Search</a>
+        </div>
+        <div style="text-align: left;background-color: rgb(245, 241, 241);">
+            <img src="googlePic6.jpg" alt="Google" style="width:100px;">
+        </div>
+        <p style="color: red; font-family:Arial, Helvetica, sans-serif; font-size: 20px; padding-left: 22px;">Advanced Search</p>
+
+        <hr color="lightgray">
+        <p style="padding-top: 20px;"></p>
+
+        <div>
+            <form action="https://google.com/search">
+                <table>
+                    <tr>
+                        <td class="actions" style="font-size: 16px;">Find pages with...</td>
+                        <td class="input"></td>
+                        <td class="explanation" style="font-size:14px;"><b>To do this in the search box.</b></td>
+                    </tr>
+                    <tr>
+                        <td class="actions">all these words:</td>
+                        <td class="input">
+                            <input style="width:550px; height:30px;" type="search" name="as_q" />
+                        </td>
+                        <td class="explanation">Type the important words: <code>tri-color rat terrier</code></td>
+                    </tr>
+                    <tr>
+                        <td class="actions">this exact word or phrase:</td>
+                        <td class="input">
+                            <input style="width:550px; height:30px;" type="search" name="as_epq" />
+                        </td>
+                        <td class="explanation">Put exact words in quotes: <code>"rat terrier"</code></td>
+                    </tr>
+                    <tr>
+                        <td class="actions">any of these words:</td>
+                        <td class="input">
+                            <input style="width:550px; height:30px" type="search" name="as_oq" />
+                        </td>
+                        <td class="explanation">Type OR between all the words you want: miniature OR standard</td>
+                    </tr>
+                    <tr>
+                        <td class="actions">none of these words:</td>
+                        <td class="input">
+                            <input style="width:550px; height:30px;" type="search" name="as_eq" />
+                        </td>
+                        <td class="explanation">Put a minus sign just before words that you dont want:<br /> -rodent, -"Jack Russell"</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Advanced Search" style="font-size: 12px; width: 125px; height: 35px; border:hidden; border-radius: 5px; color: rgb(255, 255, 255); background-color: rgba(28, 147, 245, 0.842); border-color: navy; margin-left: 420px;">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+ .rounded {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+
+  .google {
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 25px;
+  }
+
+  .mainOptions {
+    text-align: right;
+  }
+
+
+  .verticalLine {
+    border-left: thick solid #bebbbb;
+  }
+
+  .advanced {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    padding-left: 20px;
+  }
+
+  #table, th, td {
+    padding-left: 20px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(116, 114, 114);
+  }
+
+  #th, td {
+    font-size: 12px;
+  }
+
+  .actions {
+    width:200px;
+  }
+
+  .input {
+    width:500px;
+  }
+
+  .explanation {
+    width:300px;
+  }
